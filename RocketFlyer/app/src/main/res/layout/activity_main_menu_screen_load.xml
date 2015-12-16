@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:background="@drawable/bg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:id="@+id/btnReturn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Game:"
+        android:id="@+id/tvLoadTitle"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="savegame 1"
+        android:id="@+id/tvLoad1"
+        android:layout_below="@+id/tvLoadTitle"
+        android:layout_alignLeft="@+id/tvLoadTitle"
+        android:layout_alignStart="@+id/tvLoadTitle"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Slot 1"
+        android:id="@+id/btnLoad1"
+        android:layout_below="@+id/tvLoad1"
+        android:layout_alignLeft="@+id/tvLoad1"
+        android:layout_alignStart="@+id/tvLoad1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="savegame 1"
+        android:id="@+id/tvLoad2"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/btnLoad1"
+        android:layout_alignLeft="@+id/btnLoad2"
+        android:layout_alignStart="@+id/btnLoad2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Slot 2"
+        android:id="@+id/btnLoad2"
+        android:layout_below="@+id/tvLoad2"
+        android:layout_alignLeft="@+id/btnLoad1"
+        android:layout_alignStart="@+id/btnLoad1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="savegame 1"
+        android:id="@+id/tvLoad3"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/btnLoad2"
+        android:layout_alignLeft="@+id/btnLoad2"
+        android:layout_alignStart="@+id/btnLoad2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Slot 3"
+        android:id="@+id/btnLoad3"
+        android:layout_below="@+id/tvLoad3"
+        android:layout_alignLeft="@+id/tvLoad3"
+        android:layout_alignStart="@+id/tvLoad3" />
+</RelativeLayout>

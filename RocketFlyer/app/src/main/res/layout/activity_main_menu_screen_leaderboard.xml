@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:id="@+id/tvHighScoreLabel"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:id="@+id/btnReturn"
+        android:layout_gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout5"
+        android:layout_below="@+id/tvHighScoreLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st Place"
+            android:id="@+id/tv1stPlaceTitle"
+            android:layout_below="@+id/tvScoreTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight Score:"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/tv1stPlaceTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:id="@+id/tv1stPlaceScore"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money Earned:"
+            android:id="@+id/textView10"
+            android:layout_alignTop="@+id/tv1stPlaceScore"
+            android:layout_toRightOf="@+id/tv1stPlaceScore"
+            android:layout_toEndOf="@+id/tv1stPlaceScore"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:id="@+id/tv1stPlaceCash"
+            android:layout_below="@+id/tv1stPlaceTitle"
+            android:layout_toRightOf="@+id/textView10"
+            android:layout_toEndOf="@+id/textView10"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout6"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd Place"
+            android:id="@+id/tv2ndPlaceTitle"
+            android:layout_below="@+id/tvScoreTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight Score:"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/tv2ndPlaceTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:id="@+id/tv2ndPlaceScore"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_toRightOf="@+id/textView17"
+            android:layout_toEndOf="@+id/textView17"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money Earned:"
+            android:id="@+id/textView22"
+            android:layout_alignTop="@+id/tv2ndPlaceScore"
+            android:layout_toRightOf="@+id/tv2ndPlaceScore"
+            android:layout_toEndOf="@+id/tv2ndPlaceScore"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:id="@+id/tv2ndPlaceCash"
+            android:layout_below="@+id/tv2ndPlaceTitle"
+            android:layout_toRightOf="@+id/textView22"
+            android:layout_toEndOf="@+id/textView22"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout7"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd Place"
+            android:id="@+id/tv3rdPlaceTitle"
+            android:layout_below="@+id/tvScoreTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight Score:"
+            android:id="@+id/textView28"
+            android:layout_below="@+id/tv3rdPlaceTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:id="@+id/tv3rdPlaceScore"
+            android:layout_alignTop="@+id/textView28"
+            android:layout_toRightOf="@+id/textView28"
+            android:layout_toEndOf="@+id/textView28"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money Earned:"
+            android:id="@+id/textView30"
+            android:layout_alignTop="@+id/tv3rdPlaceScore"
+            android:layout_toRightOf="@+id/tv3rdPlaceScore"
+            android:layout_toEndOf="@+id/tv3rdPlaceScore"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:id="@+id/tv3rdPlaceCash"
+            android:layout_below="@+id/tv3rdPlaceTitle"
+            android:layout_toRightOf="@+id/textView30"
+            android:layout_toEndOf="@+id/textView30"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

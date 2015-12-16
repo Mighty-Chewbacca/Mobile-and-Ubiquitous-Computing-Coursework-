@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="@drawable/bg">
+
+    <TextView
+        android:text="@string/gameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/tvGameName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backText"
+        android:id="@+id/btnReturn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="The aim of the game is to get your rocket to fire as far as possible! Upgrade using the money you get from test flights."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:id="@+id/tvHelpText"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/tvGameName"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

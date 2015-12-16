@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RocketFlyer</string>
+
+    <string name="gameName">Rocket Flyer!</string>
+    <string name="quitText">Quit</string>
+    <string name="helpText">Help</string>
+    <string name="optionsText">Options</string>
+    <string name="playText">Play</string>
+    <string name="backText">Return</string>
+    <string name="soundText">Sound:</string>
+    <string name="action_settings">Settings</string>
+    <string name="leaderboardText">High Scores</string>
+</resources>

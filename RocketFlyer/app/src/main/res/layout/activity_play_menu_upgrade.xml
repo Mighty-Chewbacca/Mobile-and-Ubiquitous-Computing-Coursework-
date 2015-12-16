@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:background="@drawable/bg">
+
+    <ViewSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vsUpgradeSwitcher" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rlUpgradeMenu"
+            android:background="@drawable/bg">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hull Upgrades"
+                android:id="@+id/btnHullUpgrades"
+                android:layout_above="@+id/btnFuelUpgrades"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="52dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="return"
+                android:id="@+id/btnReturn"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fuel Tank Upgrades"
+                android:id="@+id/btnFuelUpgrades"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engine Upgrades"
+                android:id="@+id/btnEngineUpgrades"
+                android:layout_marginTop="49dp"
+                android:layout_below="@+id/btnFuelUpgrades"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rlHullMenu"
+            android:background="@drawable/bg">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upgrade Hull"
+                android:id="@+id/btnUpgrade"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="71dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Return"
+                android:id="@+id/btnReturnUpgrade"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/btnUpgrade"
+                android:layout_alignEnd="@+id/btnUpgrade"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hull Upgrades"
+                android:id="@+id/tvTitle"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="upgradeName"
+                android:id="@+id/tvUpgradeName"
+                android:layout_below="@+id/tvTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="33dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upgrade Changes"
+                android:id="@+id/tvUpgradeChanges"
+                android:layout_marginTop="38dp"
+                android:layout_below="@+id/tvUpgradeName"
+                android:layout_alignLeft="@+id/tvUpgradeName"
+                android:layout_alignStart="@+id/tvUpgradeName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upgrade Modification"
+                android:id="@+id/tvUpgradeModification"
+                android:layout_below="@+id/tvUpgradeChanges"
+                android:layout_alignLeft="@+id/tvUpgradeChanges"
+                android:layout_alignStart="@+id/tvUpgradeChanges"
+                android:layout_marginTop="72dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upgrade Cost"
+                android:id="@+id/tvUpgradeCost"
+                android:layout_above="@+id/btnUpgrade"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </ViewSwitcher>
+
+</RelativeLayout>
